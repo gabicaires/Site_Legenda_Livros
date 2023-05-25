@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Shorelines Script;
+    src: url("fonte/shorelines_script/Shorelines\ Script\ Bold.otf");
+  }
+
+  @font-face {
+    font-family: betterlett;
+    src: url("fonte/betterlett/Betterlett.ttf");
+  }
+
+body {
+    background-color: #617794;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    position: relative;
+    width: 300px;
+    margin-bottom: 3rem;
+}
+
+.card1:hover .descricao:hover {
+    opacity: 1;
+    height: 85%;
+}
+.card2 {
+    position: relative;
+    width: 300px;
+}
+
+.card2:hover .descricao:hover {
+    opacity: 1;
+    height: 85%;
+}
+
+.troca:hover{
+    opacity: 1;
+    height: 70%;
+}
+
+.descricao {
+    position: absolute;
+    height: 0;
+    background-color: aliceblue;
+    opacity: 0;
+    width: 245px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    top: -5%;
+}
+
+p{
+    font-family: fonte-one-piece-2;
+    font-weight: bolder;
+}
+
+img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Shorelines Script;
+}
+
+h3 {
+    text-align: center;
+}
